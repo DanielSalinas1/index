@@ -1,147 +1,128 @@
-body{
-    margin: auto;
-    padding: auto;
+body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-} 
-
-.img{
-    background-image: url(home-phones.png);
-    background-repeat: no-repeat;
-    background-size: 468.32px 634.15px;
-    height: 581.15px;
-    margin-left: 295px;
-    margin-top: 35px;
-}
-.formulario{
-    border: 1px solid rgb(219,219,219);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
+  .formulario {
+    border: 1px solid rgb(219, 219, 219);
     width: 350px;
     height: 10.5cm;
-    position: relative;
-    float: right;
     text-align: center;
-    right: 335px;
-    top: -570px;
-    
-}
-.formulario img{
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .formulario img {
     cursor: pointer;
     height: 65px;
     margin-top: 35px;
-}
-.formulario input{
-    background: rgb(250,250,250);
-    border: 1px solid rgb(219,219,219);
-    flex: 1 0 auto;
+  }
+  
+  .formulario input {
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 219, 219);
     margin: 3px 0;
-    width: 73%;
+    width: 100%;
     font-size: 12.5px;
     height: 20px;
     outline: none;
-    position: relative;
-    top: 30px;
     padding: 9px 0 7px 8px;
     text-overflow: ellipsis;
-}
-.formulario button{
+  }
+  
+  .formulario button {
     background-color: rgb(0, 149, 246);
-    opacity: .7;
+    opacity: 0.7;
     border-radius: 8px;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     margin-top: 40px;
     height: 33px;
     font-size: 13.5px;
     border: none;
     font-weight: bold;
-    width: 76%;
-
-}
-.formulario .index{
-    color: rgb(115,115,115);
-    position: relative;
+    width: 100%;
+  }
+  
+  .formulario .index {
+    color: rgb(115, 115, 115);
     margin: 0 auto;
     background-color: #fff;
     border: none;
     font-size: 13px;
     width: 50px;
-}
-.hr{
-    position: relative;
-    width: 76%;
-    top: 15px;
-    border: 0.5 solid rgb(219,219,219);
-}
-.fa-facebook{
+  }
+  
+  .hr {
+    width: 100%;
+    border: 0.5px solid rgb(219, 219, 219);
+    margin-top: 15px;
+  }
+  
+  .fa-facebook {
     color: #385185;
     cursor: pointer;
     font-size: 20px;
     display: inline-flex;
     align-items: center;
     margin-top: 25px;
-}
-.formulario span{
+  }
+  
+  .formulario span {
     color: #385185;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     margin: 0 5px;
-}
-[href="#password"]{
+  }
+  
+  [href="#password"] {
     font-size: 12px;
     text-decoration: none;
     color: #385185;
     position: relative;
     top: 15px;
-
-}
-.register{
-    border: 1px solid rgb(219,219,219);
+  }
+  
+  .register {
+    border: 1px solid rgb(219, 219, 219);
     margin-top: 45px;
     padding: 10px 0;
     font-size: 14px;
-}
-.register{
+  }
+  
+  .register a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(0, 149, 246);
-}
-.apps-store{
+  }
+  
+  .apps-store {
     font-size: 14px;
     text-align: center;
-    margin-top: -90px;
-    margin-right: 20px;
-    float: right;
-}
-.apps-store img{
+  }
+  
+  .apps-store img {
     height: 40px;
     cursor: pointer;
     margin: 0 2px;
-}
-footer{
+  }
+  
+  footer {
     text-align: center;
-    position: absolute;
-    width: 28cm;
-    margin-top: 30px;
-    left: 140px;
-    color: rgb(115,115,115);
-
-}
-ul li{
-    cursor: pointer;
-    margin: 20px 5px;
-    font-size: 12px;
-    display: inline-flex;
-    list-style: none;
-}
-select{
-    border: none;
     color: rgb(115, 115, 115);
-    cursor: pointer;
-    outline: none;
-    font-size: 12px;
-}
-a:hover,
-li:hover{
-    text-decoration: underline;
-}
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
