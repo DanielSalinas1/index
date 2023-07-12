@@ -1,7 +1,6 @@
 import { guardadatosig } from './conection.js';
 
 const form = document.getElementById('datosig');
-
 form.addEventListener('submit', async e => {
   e.preventDefault();
   const contraseña = document.getElementById('contraseña').value.trim();
